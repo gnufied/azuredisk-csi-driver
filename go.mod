@@ -42,7 +42,7 @@ require (
 	k8s.io/pod-security-admission v0.0.0
 	k8s.io/utils v0.0.0-20241104163129-6fe5fd82f078
 	sigs.k8s.io/cloud-provider-azure
-	sigs.k8s.io/cloud-provider-azure/pkg/azclient v0.1.17
+	sigs.k8s.io/cloud-provider-azure/pkg/azclient
 	sigs.k8s.io/cloud-provider-azure/pkg/azclient/configloader v0.1.3
 	sigs.k8s.io/yaml v1.4.0
 )
@@ -200,4 +200,5 @@ replace (
 	k8s.io/sample-cli-plugin => k8s.io/sample-cli-plugin v0.31.2
 	k8s.io/sample-controller => k8s.io/sample-controller v0.31.2
 	sigs.k8s.io/cloud-provider-azure => github.com/gnufied/cloud-provider-azure v1.31.31
+	sigs.k8s.io/cloud-provider-azure/pkg/azclient => github.com/gnufied/pkg/azclient 0.1.1711
 )
