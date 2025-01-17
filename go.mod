@@ -41,7 +41,7 @@ require (
 	k8s.io/mount-utils v0.29.7
 	k8s.io/pod-security-admission v0.0.0
 	k8s.io/utils v0.0.0-20241104163129-6fe5fd82f078
-	sigs.k8s.io/cloud-provider-azure v1.29.1-0.20241111034044-6ebb6c3c3260
+	sigs.k8s.io/cloud-provider-azure
 	sigs.k8s.io/cloud-provider-azure/pkg/azclient v0.1.17
 	sigs.k8s.io/cloud-provider-azure/pkg/azclient/configloader v0.1.3
 	sigs.k8s.io/yaml v1.4.0
@@ -199,4 +199,5 @@ replace (
 	k8s.io/sample-apiserver => k8s.io/sample-apiserver v0.31.2
 	k8s.io/sample-cli-plugin => k8s.io/sample-cli-plugin v0.31.2
 	k8s.io/sample-controller => k8s.io/sample-controller v0.31.2
+	sigs.k8s.io/cloud-provider-azure => github.com/gnufied/cloud-provider-azure v1.31.31
 )
