@@ -135,8 +135,12 @@ github.com/fsnotify/fsnotify v1.8.0 h1:dAwr6QBTBZIkG8roQaJjGof0pp0EeF+tNV7YBP3F/
 github.com/fsnotify/fsnotify v1.8.0/go.mod h1:8jBTzvmWwFyi3Pb8djgCCO5IBqzKJ/Jwo8TRcHyHii0=
 github.com/fxamacker/cbor/v2 v2.7.0 h1:iM5WgngdRBanHcxugY4JySA0nk1wZorNOpTgCMedv5E=
 github.com/fxamacker/cbor/v2 v2.7.0/go.mod h1:pxXPTn3joSm21Gbwsv0w9OSA2y1HFR9qXEeXQVeNoDQ=
+github.com/gnufied/cloud-provider-azure v1.31.32 h1:/YPxugw6sQQccrKw9xk1NvyyGefvkcs7veq0EhdxmF4=
 github.com/gnufied/cloud-provider-azure v1.31.32/go.mod h1:wymq866YHWf2LSeyMp+36dPHAV4M4m+/6Q1kQVCNgSY=
+github.com/gnufied/cloud-provider-azure/pkg/azclient v0.1.1711 h1:KwF9cvfHulUkfkXAWRm14zNxBTLs9Rz5v+2XyfG4f+g=
 github.com/gnufied/cloud-provider-azure/pkg/azclient v0.1.1711/go.mod h1:FVJI5d7SVIbYM0meVgqjm4JNlboKNvP0ymTheihfzPg=
+github.com/gnufied/cloud-provider-azure/pkg/azclient/configloader v0.1.311 h1:GHrXeG4RRw9ElS8A5uI8wZuZTo4Ge+mQPDkpllw4KFk=
+github.com/gnufied/cloud-provider-azure/pkg/azclient/configloader v0.1.311/go.mod h1:2KuyGEkaeScngIEbCftWQoTWMicRuVjo0huuN9IYkfA=
 github.com/go-logr/logr v0.2.0/go.mod h1:z6/tIYblkpsD+a4lm/fGIIU9mZ+XfAiaFtq7xTgseGU=
 github.com/go-logr/logr v1.2.0/go.mod h1:jdQByPbusPIv2/zmleS9BjJVeZ6kBagPoEUsqbVz/1A=
 github.com/go-logr/logr v1.2.2/go.mod h1:jdQByPbusPIv2/zmleS9BjJVeZ6kBagPoEUsqbVz/1A=
@@ -784,12 +788,6 @@ k8s.io/utils v0.0.0-20241104163129-6fe5fd82f078 h1:jGnCPejIetjiy2gqaJ5V0NLwTpF4w
 k8s.io/utils v0.0.0-20241104163129-6fe5fd82f078/go.mod h1:OLgZIPagt7ERELqWJFomSt595RzquPNLL48iOWgYOg0=
 sigs.k8s.io/apiserver-network-proxy/konnectivity-client v0.30.3 h1:2770sDpzrjjsAtVhSeUFseziht227YAWYHLGNM8QPwY=
 sigs.k8s.io/apiserver-network-proxy/konnectivity-client v0.30.3/go.mod h1:Ve9uj1L+deCXFrPOk1LpFXqTg7LCFzFso6PA48q/XZw=
-sigs.k8s.io/cloud-provider-azure v1.29.1-0.20241111034044-6ebb6c3c3260 h1:fojDjExSwK4UcEV5uGBNiGp55uly70rp9k7+YXhNjXI=
-sigs.k8s.io/cloud-provider-azure v1.29.1-0.20241111034044-6ebb6c3c3260/go.mod h1:mHnDlABcVBbkfA9qNFIYeFcEOritZWoJkpUylkIA7Mo=
-sigs.k8s.io/cloud-provider-azure/pkg/azclient v0.1.17 h1:xl40PwT1GmKqDjHtJQ1V7JQFlmyzwFvR2uxucCQwc4c=
-sigs.k8s.io/cloud-provider-azure/pkg/azclient v0.1.17/go.mod h1:P9bc1WdAEjxt/o9D2eBKGyrtHAkBMe/Qyl0baTMUC0g=
-sigs.k8s.io/cloud-provider-azure/pkg/azclient/configloader v0.1.3 h1:IiAbtW5mYf2d9sOejwBxOXm5+DxcYEOrslt909e6Sio=
-sigs.k8s.io/cloud-provider-azure/pkg/azclient/configloader v0.1.3/go.mod h1:6xHgJ5wg7E/hQO578W6n2zmlqhSDByHoh52pMDudtWQ=
 sigs.k8s.io/json v0.0.0-20221116044647-bc3834ca7abd h1:EDPBXCAspyGV4jQlpZSudPeMmr1bNJefnuqLsRAsHZo=
 sigs.k8s.io/json v0.0.0-20221116044647-bc3834ca7abd/go.mod h1:B8JuhiUyNFVKdsE8h686QcCxMaH6HrOAZj4vswFpcB0=
 sigs.k8s.io/structured-merge-diff/v4 v4.2.3/go.mod h1:qjx8mGObPmV2aSZepjQjbmb2ihdVs8cGKBraizNC69E=
