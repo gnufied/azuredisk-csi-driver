@@ -2,8 +2,6 @@ module sigs.k8s.io/azuredisk-csi-driver
 
 go 1.22.10
 
-toolchain go1.23.5
-
 require (
 	github.com/Azure/azure-sdk-for-go v68.0.0+incompatible
 	github.com/Azure/azure-sdk-for-go/sdk/azcore v1.16.0
