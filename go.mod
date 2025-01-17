@@ -200,5 +200,5 @@ replace (
 	k8s.io/sample-cli-plugin => k8s.io/sample-cli-plugin v0.31.2
 	k8s.io/sample-controller => k8s.io/sample-controller v0.31.2
 	sigs.k8s.io/cloud-provider-azure => github.com/gnufied/cloud-provider-azure v1.31.31
-	sigs.k8s.io/cloud-provider-azure/pkg/azclient => github.com/gnufied/pkg/azclient 0.1.1711
+	sigs.k8s.io/cloud-provider-azure/pkg/azclient => github.com/gnufied/pkg/azclient v0.1.1711
 )
